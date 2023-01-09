@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto&display=swap');
+/*----------Aligment----------*/
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aligment {
+    margin: 0 10rem;
+}
+@media only screen and (max-width: 1135px) {
+    .aligment {
+        margin: 0 2rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .aligment {
+        margin: 0 5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .aligment {
+        margin: 0 3rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .aligment {
+        margin: 0 1rem;
+    }
+}
+/*----------Fonts----------*/
+h1, h2, h3, h4, h5, button {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/*----------Navbar----------*/
+.navbar {
+    background-color: rgba(40, 25, 35, 61%);
+    max-height: fit-content;
+}
+.navbar-brand img{
+    width: 80px;
+    opacity: 61%;
+}
+.nav-item {
+    padding: 10px;
+    border-top: 4px solid rgba(40, 25, 35, 0%);
+}
+.red-nav-item {
+    background-color: rgb(200, 89, 29);
+}
+#cart-counter {
+    background-color: rgba(255, 170, 0, 61%);
+    color: rgba(168, 14, 14, 61%);
+    font-weight: 900;
+    padding: 3px;
+}
+.nav-item:hover {
+    border-top: 4px solid rgba(224, 183, 0, 0.78);
+}
+/*----------index----------*/
+/*----------party-time----------*/
+#party-time {
+    background-image: url("projectImages/party.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+#party-time-container {
+    height: 90%;
+}
+#party-time h1 {
+    margin-top: 85px;
+    color: white;
+    font-size: 4em;
+}
+#shape1{
+    width: 20em;
+    height: 10em;
+    background-color: #FFAA00;
+    clip-path: polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%, 15% 50%);
+    text-align: center;
+}
+#party-time h3 {
+    color: white;
+}
+#party-time button {
+    background-color: rgba(255, 170, 0, 1);
+    border-radius: 40px;
+    border: none;
+    color: rgb(134, 90, 0);
+    padding: 4px 12px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+#party-time button:hover {
+    background-color: #FFDD00;
+}
+/*----------recent-bought----------*/
+#recent-bought {
+    margin-top: 3rem;
+}
+#recent-bought h2, #recent-bought p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#recent-bought h2 {
+    color: #A80E0E;
+}
+#recent-bought a {
+    color: black;
+}
+.rating, .description, .price {
+    font-weight: 200;
+}
+.card {
+    box-shadow: 5px 5px 5px whitesmoke;
+    border-radius: 10px;
+}
+.meals-container p {
+    text-align: left;
+}
+.add-to-cart-btn-index, #modal-order-btn {
+    background-color: #FFAA00;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border: none;
+    margin: 3% 0;
+    margin-left: 2%;
+}
+#modal-close-btn {
+    background-color: #A80E0E;
+    border-color: #530707;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border: none;
+    margin: 3% 0;
+    margin-left: 2%;
+}
+.add-to-cart-btn-index:hover, #modal-order-btn:hover {
+    background-color: #ffdd00;
+}
+#modal-close-btn:hover {
+    background-color: #ca1b1b;
+}
+/*----------menu----------*/
+#menu {
+    margin-top: 30vh;
+}
+#menu h2, #menu p{
+    text-align: center;
+}
+#menu h2 {
+    color: #A80E0E;
+    margin-bottom: 3rem;
+}
+#menu p {
+    margin-bottom: 2rem;
+}
+#menu-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+#menu a {
+    color: black;
+}
+#menu-background {
+    background-color: #FFAA00;
+}
+@media screen and (min-width: 992px) {
+    #shape2 {
+        margin-top: 50vh;
+    }
+}
+#shape2{
+    height: 10em;
+    width: 100%;
+    background-color: #A80E0E;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+#shape2 h2 {
+    line-height: 9.5rem;
+    color: white;
+    text-align: justify;
+    margin-left: 4vw;
+}
+#menu-background p {
+    color: white;
+    max-width: 75%;
+    text-align: justify;
+    margin-left: 4vw;
+}
+/*----------gallery----------*/
+#gallery {
+    margin-top: 3rem;
+}
+#gallery h2, #gallery p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#gallery h2 {
+    color: #A80E0E;
+}
+#gallery a {
+    color: black;
+}
+#rating, #description, #price {
+    font-weight: 200;
+}
+.card {
+    box-shadow: 5px 5px 5px whitesmoke;
+    border-radius: 10px;
+}
+#meals-container p {
+    text-align: left;
+}
+.add-to-cart-btn-index, #modal-order-btn {
+    background-color: #FFAA00;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border: none;
+    margin: 3% 0;
+    margin-left: 2%;
+}
+#modal-close-btn {
+    background-color: #A80E0E;
+    border-color: #530707;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border: none;
+    margin: 3% 0;
+    margin-left: 2%;
+}
+.add-to-cart-btn-index:hover, #modal-order-btn:hover {
+    background-color: #ffdd00;
+}
+#modal-close-btn:hover {
+    background-color: #ca1b1b;
+}
+/*----------testimonials----------*/
+#testimonials {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#testimonials h2 {
+    color: #A80E0E;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.carousel-inner img {
+    max-height: 25rem;
+}
+.carousel-inner p {
+    text-align: left;
+    margin: 3rem auto;
+}
+/*----------contacts----------*/
+#contacts-info {
+    margin: auto;
+    color: white;
+    background-color: #A80E0E;
+}
+#contacts-info a {
+    color: white;
+}
+#contacts-info ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto auto auto auto auto;
+    height: 25rem;
+}
+#contacts-info li {
+    font-weight: 200;
+}
+#phone-number {
+    margin-top: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#clock-img {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-bottom: 5vh;
+}
+#placeholder-img {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    margin-bottom: 5vh;
+}
+#links {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5vh;
+}
+#links a {
+    margin-right: 3vw;
+}
+#map {
+    height: 25rem;
+}
+/*----------footer----------*/
+#footer {
+    margin-top: 3rem;
+}
+#footer h3 {
+    color: #A80E0E;
+}
+#useful-links ul{
+    list-style-type: none;
+}
+#useful-links a {
+    color: black;
+}
+#integram-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.25rem;
+}
+#integram-imgs img {
+    max-width: 100%;
+}
+/*----------detail----------*/
+/*----------gallery-detail----------*/
+#gallery-detail {
+    margin-top: 105px;
+}
+#meal-info h1 {
+    color: #A80E0E;
+}
+#buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#minus-btn, #item-counter, #plus-btn {
+    background-color: white;
+    border: 2px solid #ffaa00;
+    border-radius: 10px;
+    height: 30px;
+    width: 55px;
+    float: left;
+    font-size: 15px;
+    color: #a80e0e;
+}
+#add-to-cart-btn-detail {
+    color: #a80e0e;
+    background-color: #FFAA00;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 110px;
+    border: none;
+    margin-left: auto;
+}
+#plus-btn:hover, #item-counter:hover, #minus-btn:hover, #add-to-cart-btn-detail:hover {
+    background-color: #ffdd00;
+}
+/*----------pills----------*/
+#pills-tab li button {
+    font-size: 1.5rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #A80E0E;
+    background-color: #FFAA00;
+}
+#pills-tab li:hover {
+    border-top: 4px solid white;
+}
+/*----------description----------*/
+#description-info h3 {
+    color: #A80E0E;
+}
+#description-info h3, #description-info p, #description-info h4 {
+    margin: 1rem 0;
+}
+#nutrition-table {
+    border: 0.5px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+#nutrition-table td{
+    border: 0.5px solid #DDD;
+    padding: 10px;
+}
+#nutrition-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#nutrition-table tr:hover{
+    background-color: #DDD;
+}
+/*----------reviews----------*/
+#reviews h3 {
+    margin-bottom: 3vh;
+}
+#reviews-container img {
+    max-height: 25rem;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    border-radius: 5px;
+}
+#reviews-container h4 , #reviews-container h5, #reviews-container p {
+    margin-bottom: 3vh;
+}
+#add-rev-btn {
+    background-color: #FFAA00;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #a80e0e;
+    width: fit-content;
+}
+#add-rev-btn:hover {
+    background-color: #ffdd00;
+}
+#reviews-info {
+    margin-top: 3vh;
+}
+#review-form {
+    display: none;
+    grid-template-columns: auto;
+    margin-bottom: 1rem;
+}
+#review-form label {
+    margin-bottom: 1vh;
+}
+#img-input, #tickmarks, #name-input, #city-input {
+    margin-bottom: 3vh;
+    padding: 5px 5px;
+}
+#text-area {
+    margin-bottom: 1vh;
+    padding: 5px 5px
+}
+#tickmarks {
+    width: fit-content;
+}
+#name-input, #city-input, #text-area {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    border-color: black;
+    border-width: 1px;
+}
+#name-input, #city-input {
+    height: 5vh;
+}
+#name-input:focus, #city-input:focus, #text-area:focus{
+    border-radius: 0px;
+    background-color: white;
+}
+#sumbit-btn {
+    background-color: #FFAA00;
+    border-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px 20px;
+    border: none;
+    margin-top: 1rem;
+    max-width: fit-content;
+    color: white
+}
+#sumbit-btn:hover {
+    background-color: #ffdd00;
+}
+#msg {
+    color: #a80e0e;
+    height: 25px;
+}
